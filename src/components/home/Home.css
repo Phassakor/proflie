@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+}
+
+.bodyHome{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    height: 1440px;
+}
+/*------------------------------------------------------------------------Nav*/
+.NavHome{
+    display: flex;
+    background-color: rgb(36, 36, 124);
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavHome p{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+}
+
+.NavHome img{
+    width: 80px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 140px;
+}
+
+.ulhome{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin-right: 120px;
+}
+
+.ulhome li{
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    color: rgb(9, 255, 0);
+}
+.ulhome li p:hover{
+    background-color: rgb(235, 248, 51);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+
+
+/*------------------------------------------------------------------------Head*/
+.headHome{
+    background-color: rgb(36, 36, 124);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conheadHome{
+    position: relative;
+    /* background-color: aqua; */
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-right:30px;
+    color: aliceblue;
+}
+.conheadHome img{
+    z-index: 1;
+    position: absolute;
+    width: 280px;
+    height: 300px;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+.conHeadText{
+    width: 700px;
+    height: 100px;
+}
+.conHeadText p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+    font-size: 14px;
+}
+.conHeadText h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 50px;
+}
+/*------------------------------------------------------------------------content*/
+.contenBodytHome{
+    /* background-color: aliceblue; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentHome{
+    /* z-index: -1; */
+    position: relative;
+    width: 80%;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    'a b';
+}
+
+.contentHome-a{
+    grid-area: a;
+    width: 100%;
+    height: 500px;
+}
+
+.contentHome-b{
+    grid-area: b;
+    width: 100%;
+    height: 500px;
+}
+
+.boxconten{
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    /* background-color: brown; */
+    padding: 10px; 
+}
+
+.boxconten h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.boxconten p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.forconttact{
+    display: flex;
+}
+
+.forEDUCATION{
+    height: 400px;
+}
+.forlang{
+    height: 250px;
+}
+
+.boxinbox{
+    width: 300px;
+    height: 70px;
+}
+.boxconten li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.bar{
+    width: 600px;
+    height: 20px;
+    background-color: blue;
+}
+.bar2{
+    width: 350px;
+    height: 20px;
+    background-color: blue;
+}
+
+.bar p{
+    text-align: center;
+    color: aliceblue;
+}
+.bar2 p{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width:700px){
+	.contentHome{
+		grid-template-columns: 1fr;
+        grid-template-areas: 
+        'a'
+        'b';
+	}
+    .conHeadText{
+        width: 300px;
+        margin-left: 200px;
+    }
+    .conHeadText p{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 100;
+        font-size: 10px;
+    }
+    .conHeadText h1{
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 200;
+        font-size: 40px;
+    }
+    .headHome img{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+    .NavHome img{
+        margin-left: 0;
+    }
+    .ulhome{
+        margin-right: 0;
+    }
+    .forconttact{
+        flex-direction: column;
+    }
+    .boxconten{
+        width: auto;
+        height: auto;
+    }
+    .contentHome-a{
+        width: auto;
+        height: auto;
+    }
+    .contentHome-b{
+        width: auto;
+        height: auto;
+    }
+    .bodyHome{
+        height: 2200px;
+    }
+}
+
+@media only screen and (max-width:1100px){
+    .headHome img{
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+    }
+}

@@ -1,0 +1,22 @@
+  
+  
+.appGraph {
+   text-align: center;
+   display: inline;
+  }
+
+.graph{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btGraphDay{
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+    background-color: aqua;
+  }
+.for-bt-graph{
+  margin-left: 30px;
+}

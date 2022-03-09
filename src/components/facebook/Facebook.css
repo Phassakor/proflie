@@ -1,0 +1,15 @@
+.bodyFacebook{
+    margin: 0;
+    padding: 0;
+    background-color: #f1f2f5;
+    height: auto;
+}
+
+.app_body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll{
+    overflow: scroll;
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+.bodyRecord{
+    box-sizing: border-box;
+    display: flex;
+    background-color: #f7f7f7;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;/*google fonts*/
+}
+
+.containerRecord{
+    margin:30px auto;
+    width: 500px;
+
+}
+
+
