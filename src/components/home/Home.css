@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     background-color: aliceblue;
-    height: 1440px;
+    height: 1210px;
 }
 /*------------------------------------------------------------------------Nav*/
 .NavHome{
@@ -156,10 +156,21 @@
 }
 
 .forEDUCATION{
-    height: 400px;
+    height: 250px;
 }
 .forlang{
-    height: 250px;
+    height: 170px;
+}
+
+.foractivity{
+    height: 100px;
+}
+
+.forPersonal{
+    height: 150px;
+}
+.forSkill{
+    height: 100px;
 }
 
 .boxinbox{

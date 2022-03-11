@@ -43,7 +43,7 @@ function Home() {
                                 <li>Computer Engineering  GPA: 3.21</li>
                             </ul>
                         </div>
-                        <div className='boxconten'>
+                        <div className='boxconten forSkill'>
                             <h2>SUMMARY OF SKILL</h2>
                             <ul>
                                 <li>React JS</li>
@@ -74,7 +74,7 @@ function Home() {
                             </div>
                            <p>21/33 Vibhavadi Road, Soi 60, Talat Bang Khen SubdistrictLaksi District Bangkok  10210</p>
                         </div>
-                        <div className='boxconten'>
+                        <div className='boxconten forPersonal'>
                             <h2>PERSONAL PROFILE</h2>
                             <p>
                                 I had an internship at a company for 2 months of training that made me love to make websites. 
@@ -90,7 +90,7 @@ function Home() {
                             <h3>ENGLISH</h3>
                             <div className='bar2'><p>60%</p></div>
                         </div>
-                        <div className='boxconten'>
+                        <div className='boxconten foractivity'>
                             <h2>ACTIVITIES</h2>
                             <p>
                                 Become a staff assistant teaching AI education for students to teachers. 
